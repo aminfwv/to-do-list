@@ -1,0 +1,107 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container{
+    width: 600px;
+    padding: 30px 70px;
+    border-radius: 20px;
+    background-color: rgb(229, 229, 229);
+}
+
+#header-title{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+}
+
+#search-form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+#search-form input:focus{
+    outline: none;
+}
+
+main{
+    margin: 50px 0px;
+    padding: 0px 50px; 
+}
+
+main h2{
+    color: blue;
+}
+
+#to-do-list{
+    padding-left: 0px;
+}
+
+#to-do-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.delete-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+
+.add-to-do{
+    margin: 20px 0px;
+}
+
+#add-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.add-input:focus{
+    outline: none;
+}
+
+.add-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+}
